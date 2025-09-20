@@ -2,6 +2,31 @@
     include "cabecalho.php"
 ?>
 <Body>
+
+ <style>
+        body, .container {
+            background-color: #FFff;
+            font-family: Montserrat;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            background-color: #FFF5E1ed; 
+        }
+        .btn-group .btn {
+            color:#ffff;
+            background-color: #A67B5B;
+        }
+
+        .table thead th {
+        background-color: #ffff; 
+        color: #D84B16;
+        font-weight: bold;
+    }
+    </style>
+
+
     <div class="container">
         <table class="table">
             <thead>

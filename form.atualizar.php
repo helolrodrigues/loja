@@ -18,8 +18,6 @@ $produto = $stmt->fetch(PDO::FETCH_ASSOC);
 //echo "Preço: R$" . $produto['preco'] . "<br>";
 //echo "Estoque: " . $produto['estoque'] . "<br><br>";
 
-
-
 ?>
         <form action= "#" method= "POST">
             <div class="mb-3">
@@ -49,10 +47,35 @@ $produto = $stmt->fetch(PDO::FETCH_ASSOC);
                 "
                 type="text" name="estoque" class="form-control">
                 </div>
-            <button type="submit" class="btn btn-primary">Atualizar</button>
+            <button type="submit" class="btn btn-outline-secondary">Atualizar</button>
         </form>
     </div>
-    
+
+
+    <style>
+            h1{
+                color: #D84B16;
+            }
+
+            h2{
+                color:#D2b48c;
+            }
+        html, body {
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    font-family: Montserrat;
+    background-color: #FFF5E1ed;
+}
+    btn-group{
+        font-family: Montserrat;
+    }
+
+        </style>
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
     </script>
 </body>
